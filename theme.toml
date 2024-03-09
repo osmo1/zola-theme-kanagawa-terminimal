@@ -1,0 +1,48 @@
+name = "terminimal"
+description = "A simple, minimal retro theme"
+license = "MIT"
+homepage = "https://github.com/pawroman/zola-theme-kanagawa-terminimal"
+min_version = "0.11.0"
+
+# An optional live demo URL
+# demo = "https://pawroman.github.io/zola-theme-terminimal/"
+
+[author]
+name = "osmo1"
+homepage = "https://github.com/osmo1"
+
+# The original theme this one's been forked off.
+[original]
+author =  "Paweł Romanowski"
+homepage = "https://pawroman.dev/"
+repo = "https://github.com/pawroman/zola-theme-terminimal"
+
+author =  "Radosław Kozieł"
+homepage = "https://radoslawkoziel.pl/"
+repo = "https://github.com/panr/hugo-theme-terminal"
+
+[extra]
+
+# One of: blue, green, orange, pink, red.
+# Defaults to blue.
+# Or append -auto, e.g. blue-auto
+accent_color = "blue"
+
+# I have not yet added lotus as the light theme, change at your own risk.
+background_color = "dark"
+
+# The logo text - defaults to 2 non-breaking spaces.
+logo_text = "Kanagawa Terminimal theme"
+
+# Whether to show links to earlier and later posts
+# on each post page.
+enable_post_view_navigation = true
+
+# The text shown at the bottom of a post,
+# before earlier/later post links.
+post_view_navigation_prompt = "Thanks for reading! Read other posts?"
+
+# Use full Hack character set, not just a subset.
+# Switch this to true if you need full unicode support.
+# Defaults to false.
+use_full_hack_font = false

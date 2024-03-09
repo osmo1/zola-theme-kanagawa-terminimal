@@ -1,0 +1,28 @@
+:root {
+  @media (prefers-color-scheme: dark) {
+    --accent: #ffa066;
+    --accent-alpha-70: #f2a05f;
+    --accent-alpha-20: #cc8750;
+  
+    --background: #1f1f28;
+    --color: #dcd7ba;
+    --border-color: #363646;
+
+    div.logo {
+      color: black;
+    }
+  }
+  @media (prefers-color-scheme: light) {
+    --accent: #ffa066;
+    --accent-alpha-70: #f2a05f;
+    --accent-alpha-20: #cc8750;
+  
+    --background: #f2ebbc;
+    --color: #545464;
+    --border-color: #363646;
+
+    div.logo {
+      color: white;
+    }
+  }
+}
