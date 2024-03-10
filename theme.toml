@@ -17,10 +17,6 @@ author =  "Paweł Romanowski"
 homepage = "https://pawroman.dev/"
 repo = "https://github.com/pawroman/zola-theme-terminimal"
 
-author =  "Radosław Kozieł"
-homepage = "https://radoslawkoziel.pl/"
-repo = "https://github.com/panr/hugo-theme-terminal"
-
 [extra]
 
 # One of: blue, green, orange, pink, red.
